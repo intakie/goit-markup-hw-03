@@ -121,6 +121,7 @@ ul {
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding-bottom: 188px;
 }
 
 .title-one {
