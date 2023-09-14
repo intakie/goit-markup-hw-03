@@ -19,10 +19,12 @@ img {
 
 .container {
   max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 body {
@@ -36,7 +38,7 @@ body {
   background: #fff;
 }
 
-header {
+.header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
@@ -51,18 +53,22 @@ header {
   text-transform: uppercase;
   padding-top: 101px;
   padding-bottom: 17px;
+  margin-right: 76px;
 }
 
 .web-logo {
   color: #2e2f42;
 }
 
-nav {
+.nav {
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
+  display: flex;
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
@@ -72,6 +78,10 @@ nav {
 .nav-list-item {
   font-weight: 500;
   color: #2e2f42;
+}
+
+.nav-list-link {
+  padding: 24px 0;
 }
 
 .adress {
