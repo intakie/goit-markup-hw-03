@@ -58,6 +58,7 @@ body {
 }
 
 .second-logo {
+  display: inline-block;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -68,7 +69,6 @@ body {
   padding-top: 101px;
   padding-bottom: 17px;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -337,7 +337,7 @@ h3 {
   padding-bottom: 120px;
 }
 
-.portfolio-list-item {
+.portfolio-list-item:first-child {
   width: calc((100% - 48px) / 3);
 }
 
