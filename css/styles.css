@@ -131,7 +131,7 @@ ul {
 
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .title-one {
@@ -147,6 +147,7 @@ ul {
   padding-right: 472px;
   padding-left: 472px;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 button {
@@ -164,6 +165,10 @@ button {
   letter-spacing: 0.64px;
   cursor: pointer;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .buy:hover {
