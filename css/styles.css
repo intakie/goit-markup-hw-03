@@ -179,12 +179,22 @@ button {
   background-color: #404bbf;
 }
 
+.solution {
+  padding: 120px 0;
+}
+
+/* .visually-hidden []  */
+
 .solution-list {
   padding-top: 120px;
   padding-bottom: 179px;
   display: flex;
   /* align-items: flex-end; */
   gap: 24px;
+}
+
+.sol-title {
+  margin-bottom: 8px;
 }
 
 .in-solution-list {
