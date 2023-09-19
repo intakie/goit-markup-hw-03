@@ -18,6 +18,7 @@ img {
 }
 
 .container {
+  display: flex; 
   max-width: 1440px;
   width: 1158px;
   padding-left: 15px;
@@ -180,6 +181,7 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  display: block;
 }
 
 .buy:hover {
