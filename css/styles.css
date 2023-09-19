@@ -24,7 +24,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 
 body {
@@ -329,6 +328,8 @@ h3 {
 }
 
 .portfolio-list {
+  margin: 0;
+  padding: 0;
   display: flex; 
   gap: 24px;
   row-gap: 48px;
