@@ -28,6 +28,8 @@ img {
 
 .div {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 body {
@@ -54,10 +56,9 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding-top: 101px;
-  padding-bottom: 17px;
+  /* padding-top: 101px;
+  padding-bottom: 17px; */
   margin-right: 76px;
-
 }
 
 .second-logo {
@@ -69,9 +70,9 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding-top: 101px;
+  /* padding-top: 101px;
   padding-bottom: 17px;
-  margin-right: 76px;
+  margin-right: 76px; */
   margin-bottom: 16px;
 }
 
@@ -91,7 +92,7 @@ body {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
-  margin-left: 76px;
+  /* margin-left: 76px; */
 }
 
 .nav-list-item {
@@ -104,10 +105,10 @@ body {
 }
 
 .adress {
-  margin-left: 332px;
+  /* margin-left: 332px; */
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .adress-list {
@@ -132,8 +133,15 @@ ul {
   list-style-type: none;
 }
 
-.adress-list-item {
+/* .adress-list-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+} */
+
+.adress-list-item-link {
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .adress-list-item:hover {
@@ -158,9 +166,10 @@ ul {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
-  padding-top: 188px;
+  /* padding-top: 188px;
   padding-right: 472px;
-  padding-left: 472px;
+  padding-left: 472px; */
+  margin: 0 auto;
   margin-bottom: 48px;
   max-width: 496px;
 }
@@ -211,12 +220,11 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  
 }
 
 .solution-list {
-  padding-top: 120px;
-  padding-bottom: 179px;
+  /* padding-top: 120px;
+  padding-bottom: 179px; */
   display: flex;
   /* align-items: flex-end; */
   gap: 24px;
@@ -248,7 +256,7 @@ h3 {
   display: flex;
   /* align-items: flex-end; */
   gap: 24px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .title-three {
@@ -262,7 +270,7 @@ h3 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   /* padding-right: 639px;
   padding-left: 639px; */
   margin-bottom: 72px;
@@ -270,7 +278,7 @@ h3 {
 
 .team-list-item {
   background: var(--WHITE, #fff);
-  border-radius: 0px 0px 4px 4px; 
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employee {
@@ -327,7 +335,7 @@ h3 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 61px;
+  /* padding-top: 61px; */
   margin-bottom: 72px;
   /* padding-left: 611px;
   padding-right: 611px; */
@@ -336,12 +344,12 @@ h3 {
 .portfolio-list {
   margin: 0;
   padding: 0;
-  display: flex; 
+  display: flex;
   gap: 24px;
   row-gap: 48px;
   /* column-gap: 48px; */
   flex-wrap: wrap;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .portfolio-list-item:first-child {
@@ -350,7 +358,7 @@ h3 {
 
 .app {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc; 
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
@@ -360,9 +368,9 @@ h3 {
 
 .logo-text {
   color: var(--CLOUD, #f4f4fd);
-  padding-top: 17px;
+  /* padding-top: 17px; */
   width: 264px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .footer {
